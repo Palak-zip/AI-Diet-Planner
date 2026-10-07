@@ -235,7 +235,7 @@ if st.button("Generate My 7-Day Diet Plan", type="primary"):
 
 # --- Display Plan ---
 if st.session_state.diet_plan:
-    st.success("Your fresh, randomized diet plan is ready!")
+    st.success("Your diet plan is ready!")
     
     st.subheader("Plan Overview")
     st.write(f"This personalized plan focuses on {goal.lower()} while keeping your meals purely Indian and delicious. It averages around {target_calories} kcal per day.")

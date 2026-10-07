@@ -9,7 +9,7 @@ st.markdown("Get a personalized, authentic Indian diet plan tailored to your bod
 
 # --- Sidebar Inputs ---
 st.sidebar.header("Your Profile")
-name = st.sidebar.text_input("Name", "Aarav Sharma")
+name = st.sidebar.text_input("Name", "Palak")
 age = st.sidebar.number_input("Age", min_value=10, max_value=100, value=26)
 gender = st.sidebar.selectbox("Gender", ["Male", "Female"])
 height_cm = st.sidebar.number_input("Height (cm)", min_value=100.0, max_value=250.0, value=174.0)
